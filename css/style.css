@@ -1,0 +1,171 @@
+/*Reset Code*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.fix:before, .fix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    font-size: 14px;
+    line-height: 22px;
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*Btn Code*/
+.btn {
+    background-color: tomato;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: .3s;
+    font-style: italic;
+}
+.btn:hover{
+    background-color: orange;
+}
+/*Header Code*/
+.header {
+    background: #ddd;
+    padding: 20px;
+}
+.logo {
+    float: left;
+    width: 250px;
+    margin-right: 30px;
+}
+.logo a{}
+.logo a img{}
+.menu {
+    float: right;
+    width: 680px;
+}
+.menu ul {
+    text-align: right;
+    margin-top: 14px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    background-color: tomato;
+    color: #fff;
+}
+/*Banner Code*/
+.banner{}
+.banner img {
+    height: 280px;
+}
+/*Services Code*/
+.services{}
+.title{}
+.title h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 30px 0;
+}
+.service{}
+.single-service {
+    background-color: teal;
+    float: left;
+    width: 313px;
+    margin-right: 30px;
+    padding: 20px;
+    color: #fff;
+}
+.single-service:last-child{
+    margin-right: 0;
+}
+.single-service h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.single-service img{}
+.single-service p{}
+.single-service a{}
+
+/*About Code*/
+.about {
+    padding: 60px 0;
+}
+.about-left {
+    float: left;
+    width: 700px;
+    margin-right: 30px;
+}
+.about-left h4, .about-menu h4{
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.about-left p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.about-left a{}
+.about-menu {
+    float: right;
+    width: 270px;
+}
+.about-menu ul{}
+.about-menu ul li {
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.about-menu ul li:last-child{
+    border-bottom: 0;
+}
+.about-menu ul li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: .3s;
+}
+.about-menu ul li a:hover{
+    color: tomato;
+}
+
+/*Footer Code*/
+.footer {
+    text-align: center;
+    background-color: teal;
+    padding: 20px;
+}
+.footer p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+}
