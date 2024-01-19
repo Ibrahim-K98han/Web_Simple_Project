@@ -198,3 +198,22 @@ body{
     font-size: 50px;
     text-transform: capitalize;
 }
+/*Gallery*/
+.gallerys{}
+.title{}
+.title h4{}
+.gallery{}
+.single-gallery {
+    float: left;
+    width: 227px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.single-gallery:nth-child(4), .single-gallery:last-child{
+    margin-right: 0;
+}
+.single-gallery iframe {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
